@@ -7,6 +7,8 @@ $(document).ready(function() {
     dataObject = {
         "api-key": "unoOYsH6b5BnSh8amNDBbNKY1K7xZc72",
         end_date: endDate || today
+        q: "election",
+        begin_date: "20170101"
     };
 
     $("#form").on("submit", function() {
