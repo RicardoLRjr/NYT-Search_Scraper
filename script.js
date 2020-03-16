@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
 
 
@@ -8,6 +9,7 @@ $(document).ready(function() {
         method: "GET",
         data: {
             q: "election",
+            fr: "The New York Times"
             "api-key": "unoOYsH6b5BnSh8amNDBbNKY1K7xZc72"
         }
     }).then(function(response) {
